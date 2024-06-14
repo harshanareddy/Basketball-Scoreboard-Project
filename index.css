@@ -6,6 +6,7 @@ body {
     background-color: rgb(21, 35, 71);
 }
 
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -18,6 +19,7 @@ body {
 .guest{
     text-align: center;
 }
+
 
 h3{
     color: white;
@@ -38,13 +40,38 @@ p{
     color: rgba(249, 79, 109, 1);
     font-size: 50px;
 }
+.lead{
+    border: 2px solid rgba(249, 79, 109, 1);
+}
 
 button{
     font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#points-btn{
     background-color: rgb(21, 35, 71);
     color: rgba(154, 171, 216, 1);
     border: 1px solid rgba(154, 171, 216, 1);
     border-radius: 3px;
     padding: 6px 8px;
-
 }
+
+.extra_icons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#reset-btn{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid rgba(154, 171, 216, 1);
+    color: rgb(21, 35, 71);
+    border-radius: 3px;
+}
+#reset-btn:hover{
+    background-color: rgba(154, 171, 216, 1);
+    border: 1px solid white;
+}
+
